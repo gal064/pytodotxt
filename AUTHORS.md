@@ -1,5 +1,4 @@
-Authors
-=======
+# Authors
 
 For the time being, this project is authored by
 
@@ -11,3 +10,5 @@ Gratitude goes to these individuals for their contribution:
  - Markus Katharina Brechtel (https://github.com/chaotika)
  - Sean Breckenridge (https://github.com/seanbreckenridge)
  - Sylvain303 (https://github.com/Sylvain303)
+ - gal064 (https://github.com/gal064)
+
