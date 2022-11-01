@@ -210,6 +210,11 @@ class TestManipulation(unittest.TestCase):
         self.assertEqual(task.contexts, ['project'])
         self.assertEqual(str(task), "Some in @project")
 
+    def test_remove_attr(self):
+        task = pytodotxt.Task("(C) test t:2022-10-26 due:2022-10-27 t:2022-10-27 @17")
+        task.remove_attribute('t', '2022-10-26')
+        self.assertEqual(str(task), "(C) test due:2022-10-27 t:2022-10-27 @17")
+
     def test_replace_project(self):
         task = pytodotxt.Task("Some +project in @project")
         self.assertEqual(task.projects, ["project"])
